@@ -3,7 +3,7 @@ An attempt at Linux from scratch
 
 ## Installing
 ### Installing in QEMU
-1) Download boot.img
+1) [Download boot.img]([https://pages.github.com/](https://github.com/aHumanWithAName-commited-arson/SerialOS/releases))
 2) Install QEMU
 3) Run 'qemu-system-x86_64 -hda path/to/boot.img'
 4) You should see the bootloader, Type '/bzImage root=/dev/sda' to boot Linux.
