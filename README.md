@@ -1,2 +1,13 @@
 # SerialOS
-yw andrew
+An attempt at Linux from scratch
+
+## Installing
+### Installing in QEMU
+1) Download boot.img
+2) Install QEMU
+3) Run 'qemu-system-x86_64 -hda path/to/boot.img'
+4) You should see the bootloader, Type '/bzImage root=/dev/sda' to boot Linux.
+
+### Installing on real harrdware
+
+Idk, I haven't ran it on real hardware before so I'm not sure how to do this. Honesly, This OS is NOT ready to be ran on real hardware.
