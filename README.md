@@ -1,5 +1,5 @@
 # SerialOS
-An attempt at Linux from scratch
+ ~~An attempt at Linux from scratch~~ A really light Arch-based Linux distro for my friend's ThinkPad.
 ## Installing
 ### Installing in QEMU
 1)  Download [boot.img](https://github.com/aHumanWithAName-commited-arson/SerialOS/releases/download/Release/boot.img)
