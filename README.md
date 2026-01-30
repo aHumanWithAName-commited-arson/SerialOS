@@ -4,8 +4,7 @@
 ### Installing in QEMU
 1)  Download [boot.img](https://github.com/aHumanWithAName-commited-arson/SerialOS/releases/download/Release/boot.img)
 2) Install QEMU
-3) Run 'qemu-system-x86_64 -hda path/to/boot.img'
-4) You should see the bootloader, Type '/bzImage root=/dev/sda' to boot Linux.
+3) Run 'qemu-system-x86_64 -hda path/to/SerialOS.iso'
 
 ### Installing on real harrdware
 
