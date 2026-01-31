@@ -13,7 +13,7 @@ A really light Arch-based Linux distro for my friend's ThinkPad.
 3) Boot the USB
 
 ## Default password(s)
-### Default user accout (the one you'll want to log in to when booting the live ISO/Installed system) 
+### Default user account (the one you'll want to log in to when booting the live ISO/Installed system) 
 User: serialos
 Password: serialos
 
