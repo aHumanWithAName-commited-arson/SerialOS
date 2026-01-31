@@ -25,3 +25,8 @@ password: root
 * Run `serialos-install` to install serialos
 * Run `nmtui` to connect to the internet
 * Flatpak is installed by default!
+
+## Known Bugs
+* Most apps don't appear in the app menu
+* Non-UEFI systems aren't supported
+* Audio is broken (you'll have to fix it yourself for now)
