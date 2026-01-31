@@ -5,7 +5,7 @@ A really light Arch-based Linux distro for my friend's ThinkPad.
 
 ## Installing
 ### Installing in QEMU
-1)  Download [the ISO](https://github.com/aHumanWithAName-commited-arson/SerialOS/releases/download/Release/boot.img)
+1)  Download [the ISO](https://github.com/aHumanWithAName-commited-arson/SerialOS/releases/download/v2026.01.31/serialos-2026.01.31-x86_64.iso)
 2) Install QEMU
 3) Run `qemu-system-x86_64 -cdrom path/to/SerialOS.iso`
 4) If you want to install it in the VM then be sure to add a VHD
