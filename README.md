@@ -30,3 +30,4 @@ password: root
 * Most apps don't appear in the app menu
 * Non-UEFI systems aren't supported
 * Audio is broken (you'll have to fix it yourself for now)
+* The installer installs the default kernel instead of the custom one
