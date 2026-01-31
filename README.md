@@ -11,7 +11,7 @@ A really light Arch-based Linux distro for my friend's ThinkPad.
 4) If you want to install it in the VM then be sure to add a VHD
 
 ### Installing on real harrdware
-1) Download [the ISO](https://github.com/aHumanWithAName-commited-arson/SerialOS/releases/download/Release/boot.img)
+1) Download [the ISO](https://github.com/aHumanWithAName-commited-arson/SerialOS/releases/download/v2026.01.31/serialos-2026.01.31-x86_64.iso)
 2) Flash it to a USB using something like [balenaEtcher](https://etcher.balena.io/)
 3) Boot the USB
 
