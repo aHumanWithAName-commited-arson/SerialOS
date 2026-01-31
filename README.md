@@ -4,7 +4,7 @@ A really light Arch-based Linux distro for my friend's ThinkPad.
 ### Installing in QEMU
 1)  Download [the ISO](https://github.com/aHumanWithAName-commited-arson/SerialOS/releases/download/Release/boot.img)
 2) Install QEMU
-3) Run 'qemu-system-x86_64 -cdrom path/to/SerialOS.iso'
+3) Run `qemu-system-x86_64 -cdrom path/to/SerialOS.iso`
 4) If you want to install it in the VM then be sure to add a VHD
 
 ### Installing on real harrdware
@@ -22,6 +22,6 @@ user: root
 password: root
 
 ## Tips
-* Run ''serialos-install'' to install serialos
-* Run ''nmtui'' to connect to the internet
+* Run `serialos-install` to install serialos
+* Run `nmtui` to connect to the internet
 * Flatpak is installed by default!
