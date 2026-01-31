@@ -1,12 +1,27 @@
 # SerialOS
- ~~An attempt at Linux from scratch~~ A really light Arch-based Linux distro for my friend's ThinkPad.
+A really light Arch-based Linux distro for my friend's ThinkPad.
 ## Installing
 ### Installing in QEMU
-1)  Download [boot.img](https://github.com/aHumanWithAName-commited-arson/SerialOS/releases/download/Release/boot.img)
+1)  Download [the ISO](https://github.com/aHumanWithAName-commited-arson/SerialOS/releases/download/Release/boot.img)
 2) Install QEMU
 3) Run 'qemu-system-x86_64 -cdrom path/to/SerialOS.iso'
+4) If you want to install it in the VM then be sure to add a VHD
 
 ### Installing on real harrdware
+1) Download [the ISO](https://github.com/aHumanWithAName-commited-arson/SerialOS/releases/download/Release/boot.img)
+2) Flash it to a USB using something like [balenaEtcher](https://etcher.balena.io/)
+3) Boot the USB
 
-Idk, I haven't ran it on real hardware before so I'm not sure how to do this. Honesly, This OS is NOT ready to be ran on real hardware.
+## Default password(s)
+### Default user accout (the one you'll want to log in to when booting the live ISO/Installed system) 
+User: serialos
+Password: serialos
 
+### Root (Do NOT log into this account, Use the serialos account)
+user: root
+password: root
+
+## Tips
+* Run ''serialos-install'' to install serialos
+* Run ''nmtui'' to connect to the internet
+* Flatpak is installed by default!
