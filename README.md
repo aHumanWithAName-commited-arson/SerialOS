@@ -37,7 +37,7 @@ password: root
 3) Install the kernel: `sudo pacman -U linux-6.18.7.arch1-1-x86_64.pkg.tar.zst linux-headers-6.18.7.arch1-1-x86_64.pkg.tar.zst linux-docs-6.18.7.arch1-1-x86_64.pkg.tar.zst`
 4) Update GRUB: `sudo grub-mkconfig -o /boot/grub/grub.cfg`
 5) Reboot: `sudo reboot`
-6) Once your back in the system, Run `uname -r` to check what kernel you have booted with.
+6) Once your back in the system, Run `uname -r` to check what kernel you have booted with. Expected output is `6.18.7-arch-1`
 
 ## Tips
 * Run `serialos-install` to install serialos
