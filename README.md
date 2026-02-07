@@ -24,6 +24,17 @@ Password: serialos
 user: root
 password: root
 
+## Getting the custom kernel onto the installed system
+1) Download the following:
+[linux-6.18.7.arch1-1-x86_64.pkg.tar.zst](https://github.com/aHumanWithAName-commited-arson/SerialOS/releases/download/v2026.01.31/linux-6.18.7.arch1-1-x86_64.pkg.tar.zst)
+[linux-docs-6.18.7.arch1-1-x86_64.pkg.tar.zst](https://github.com/aHumanWithAName-commited-arson/SerialOS/releases/download/v2026.01.31/linux-docs-6.18.7.arch1-1-x86_64.pkg.tar.zst)
+[linux-headers-6.18.7.arch1-1-x86_64.pkg.tar.zst](https://github.com/aHumanWithAName-commited-arson/SerialOS/releases/download/v2026.01.31/linux-headers-6.18.7.arch1-1-x86_64.pkg.tar.zst)
+2) Open a terminal in the folder that the packages are located in.
+3) Install the kernel: `sudo pacman -U linux-6.18.7.arch1-1-x86_64.pkg.tar.zst linux-headers-6.18.7.arch1-1-x86_64.pkg.tar.zst linux-docs-6.18.7.arch1-1-x86_64.pkg.tar.zst`
+4) Update GRUB: `sudo grub-mkconfig -o /boot/grub/grub.cfg`
+5) Reboot: `sudo reboot`
+6) Once your back in the system, Run `uname -r` to check what kernel you have booted with.
+
 ## Tips
 * Run `serialos-install` to install serialos
 * Run `nmtui` to connect to the internet
