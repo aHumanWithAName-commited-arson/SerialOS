@@ -1,6 +1,9 @@
 # SerialOS
 A really light Arch-based Linux distro for my friend's ThinkPad.
 
+This operating system is quite dated, and really needs to be re-designed, I'll get to that soon, maybe
+
+
 **This build of Linux is designed to run the ThinkPad T450s ONLY. Do NOT run this distro on any other device**
 
 ## Installing
